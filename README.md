@@ -17,7 +17,7 @@ If you don't have a preferred installation method, I recommend installing
 paste:
 
     cd ~/.vim/bundle
-    git clone git://github.com/
+    git clone git://github.com/cmcaine/vim-uci.git
 
 Vundle, etc. will probably work fine too.
 
