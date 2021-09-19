@@ -3,7 +3,7 @@
 " Maintainer:	Colin Caine <colin.caine@manchester.ac.uk>
 " Last Change:	2021 Sep 19
 "
-" For more information on uci, see https://wiki.openwrt.org/doc/uci
+" For more information on uci, see https://openwrt.org/docs/guide-user/base-system/uci
 
 if exists("b:current_syntax")
     finish
