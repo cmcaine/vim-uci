@@ -12,7 +12,7 @@ endif
 " Fancy zero-width non-capturing look-behind to see what the last word was.
 " Would be really nice if there was some less obscure or more efficient way to
 " do this.
-syntax match uciOptionName '\%(\%(option\|list\)\s*\)\@<=\S*'
+syntax match uciOptionName '\%(\%(option \|list \)\s*\)\@<=\S*'
 syntax match uciConfigName '\%(config \s*\)\@<=\S*'
 syntax keyword uciConfigDec config nextgroup=uciConfigName skipwhite
 syntax keyword uciOptionType option list nextgroup=uciOptionName skipwhite
