@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language:	OpenWrt Unified Configuration Interface
 " Maintainer:	Colin Caine <colin.caine@manchester.ac.uk>
-" Last Change:	2016 Feb 29
+" Last Change:	2021 Sep 19
 "
 " For more information on uci, see https://wiki.openwrt.org/doc/uci
 
@@ -20,6 +20,7 @@ syntax keyword uciOptionType option list nextgroup=uciOptionName skipwhite
 " Standard matches.
 syntax match uciComment "#.*$"
 syntax region uciString start=+"+ end=+"+ skip=+\\"+
+syntax region uciString start=+'+ end=+'+ skip=+\\'+
 
 highlight default link uciConfigName Identifier
 highlight default link uciOptionName Constant
