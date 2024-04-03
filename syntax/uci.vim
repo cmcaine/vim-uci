@@ -1,6 +1,6 @@
 " Vim syntax file
 " Language:	OpenWrt Unified Configuration Interface
-" Maintainer:	Colin Caine <colin.caine@manchester.ac.uk>
+" Maintainer:	Colin Caine <complaints@cmcaine.co.uk>
 " Last Change:	2021 Sep 19
 "
 " For more information on uci, see https://openwrt.org/docs/guide-user/base-system/uci
