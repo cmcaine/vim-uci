@@ -21,6 +21,10 @@ paste:
 
 Vundle, etc. will probably work fine too.
 
+## Reference
+
+[UCI file parsing code](https://git.openwrt.org/?p=project/uci.git;a=blob;f=file.c;h=6610f531c2f64852b032e9ead2ec30b35d61873a;hb=HEAD#l505)
+
 ## License
 
 Copyright Colin Caine. GPL v3.
