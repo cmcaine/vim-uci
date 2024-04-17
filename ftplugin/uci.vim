@@ -10,4 +10,4 @@ setl softtabstop=0
 
 setl commentstring=#\ %s
 
-let b:undo_ftplugin = "setlocal et< cms<"
+let b:undo_ftplugin = "setlocal et< cms< sts< sw<"
