@@ -10,4 +10,8 @@ setl softtabstop=0
 
 setl commentstring=#\ %s
 
-let b:undo_ftplugin = "setlocal et< cms< sts< sw<"
+" UCI identifiers (e.g. option names) may contain dashes. Telling vim this
+" lets 'w', '*', '<C-]>', etc. work better. (Issue #5)
+setl iskeyword+=-
+
+let b:undo_ftplugin = "setlocal et< cms< sts< sw< iskeyword<"
